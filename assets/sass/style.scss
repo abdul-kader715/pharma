@@ -1,0 +1,75 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     Pharma – Dashboard HTML Template
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+	2.1 topbar
+	2.2 navigation
+
+3. content
+	3.1 wpo-hero-slider
+	3.2 wpo-features-section
+	3.3 wpo-contact-section
+	3.4 wpo-service-section
+	3.5 wpo-case-section
+	3.6 wpo-testimonials-section
+	3.7 wpo-team-section
+	3.8 wpo-consultancy-section
+	3.9 wpo-blog-section
+
+
+/*------------------------------------------------------------------
+1. General
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/section-title";
+@import "components/modal";
+
+// layout
+@import "layout/header";
+
+// components
+@import "components/sticky-header";
+
+
+// page
+@import "page/home-default";
+@import "page/purchase-list";
+@import "page/purchase-add";
+@import "page/invoice";
+@import "page/payment-list";
+@import "page/purchase-return";
+@import "page/new-purchase-return";
+@import "page/purchase-return-receive";
+@import "page/dispenser/point-sale";
+
+
+
+
+
+
+

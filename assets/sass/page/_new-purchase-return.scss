@@ -1,0 +1,137 @@
+/* new-purchase-return */
+.new-purchase-return {
+
+    .section-top-btn {
+        margin-top: -35px;
+    }
+
+    @media (max-width: 767px) {
+        .section-title h2 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+    @media (max-width: 399px) {
+        .section-title h2 {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+
+    .content {
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        @media (max-width:575px) {
+            padding: 15px;
+        }
+    }
+
+    .purchase-add-fild {
+        margin-right: 0;
+    }
+
+    .form-control {
+        height: 44px;
+    }
+
+    .purchase-return-list {
+        padding: 0;
+        margin-bottom: 30px;
+
+        thead {
+            background: rgba(241, 241, 241, 0.6);
+        }
+    }
+    .purchase-return-list .form-group input:checked + label:after {
+        top: 5px;
+    }
+    .purchase-return-list .form-group.s2 input:checked + label:after {
+        top: 16px;
+    }
+    tbody tr td:nth-child(6) {
+        width: 100px;
+        line-height: 24px;
+    }
+
+    tbody tr td:nth-child(1) {
+        width: 50px;
+        line-height: 24px;
+    }
+
+    tbody tr td {
+        width: 100px;
+        line-height: 24px;
+    }
+
+    .payment-list {
+        .table {
+            @media (max-width:1050px) {
+                width: 1150px;
+            }
+        }
+    }
+
+    thead tr th:nth-child(6) {
+        width: 100px;
+    }
+    thead tr th:last-child {
+        text-align: end;
+    }
+    tbody tr td:last-child {
+        text-align: end;
+    }
+    thead tr th {
+        text-align: center;
+    }
+    tbody tr td{
+        text-align: center;
+    }
+    thead tr th:nth-child(7) {
+        text-align: center;
+    }
+    tbody tr td:nth-child(7) {
+        text-align: center;
+    }
+
+
+    .content.s2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media (max-width:991px) {
+            display: block; 
+        }
+        .row {
+            width: calc(100% - 130px);
+            @media (max-width:991px) {
+                width: 100%;
+            }
+            @media (max-width:767px) {
+                width: 100%;
+                margin: 0;
+            }
+        }
+        .theme-btn{
+            padding-left: 15px;
+            margin-left: 20px;
+            font-size: 13px;
+            &::before{
+                display: none;
+            }
+            @media (max-width:991px) {
+                margin-left:0px;
+                margin-right: 30px;
+            }
+            @media (max-width:767px) {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+
+}

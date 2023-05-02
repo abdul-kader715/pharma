@@ -1,0 +1,293 @@
+/* invoice-section */
+.invoice-section {
+    width: 595px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    overflow-x: auto;
+
+   
+    .invoice-table {
+        width: 100%;
+    }
+
+    .title-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.title-content {
+    margin-bottom: 20px;
+
+    .left-content {
+        h4 {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            color: $text-color;
+            margin-bottom: 5px;
+        }
+
+        span {
+            font-family: $base-font;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: $heading-color;
+        }
+    }
+
+    .right-content {
+
+        .theme-btn-s2 {
+            background: $tints;
+            color: $white;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                background: $theme-primary-color;
+            }
+        }
+
+        .theme-btn-s2.s2 {
+            color: $white;
+            transition: all .3s ease-in-out;
+            background: $theme-primary-color;
+
+            &:hover {
+                background: $tints;
+            }
+        }
+    }
+}
+
+.invoice-wrap {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 44px;
+
+        .text {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .no {
+                margin-right: 30px;
+            }
+
+            .no,
+            .date {
+
+                h5 {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 12px;
+                    text-align: center;
+                    letter-spacing: 0.0016px;
+                    text-transform: uppercase;
+                    color: $text-color;
+                    margin-bottom: 0;
+                }
+
+                span {
+                    font-family: $base-font;
+                    font-weight: 600;
+                    font-size: 10px;
+                    line-height: 12px;
+                    letter-spacing: -0.0002px;
+                    color: #323343;
+                }
+            }
+        }
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 28px;
+        letter-spacing: 0.0002px;
+        color: $heading-color;
+        border-left: 2px solid $theme-primary-color;
+        padding-left: 5px;
+        margin-bottom: 55px;
+    }
+
+    .recipient-left,
+    .recipient-right {
+        display: inline-block;
+        width: 49%;
+
+        h2 {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 12px;
+            color: $heading-color;
+            border: 0;
+        }
+
+        h4 {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 12px;
+            color: $heading-color;
+        }
+
+        p {
+            font-family: $base-font;
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 16px;
+            letter-spacing: -0.0002px;
+            color: $text-color;
+            margin-bottom: 0;
+        }
+
+        span {
+            font-family: $base-font;
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 16px;
+            letter-spacing: -0.0002px;
+            color: $text-color;
+        }
+    }
+
+    .recipient-right {
+        text-align: right;
+    }
+}
+
+.invoice-list .table {
+    @media (max-width:991px) {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.invoice-list {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px transparent;
+    border: radius 0;
+    padding: 0;
+    border: 2px solid transparent;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.invoice-list tbody tr td:last-child {
+    width: 78px;
+}
+
+.invoice-list thead tr th {
+    font-size: 10px;
+}
+
+.invoice-list tbody tr th,
+.invoice-list tbody tr td {
+    font-size: 11px;
+    color: #323343;
+    border: 1px solid #F3F3F3;
+}
+
+.invoice-list tbody .total td,
+.invoice-list tbody .total th {
+    border: 1px solid transparent;
+}
+
+.invoice-list tbody .total td,
+.invoice-list tbody .total th {
+    &:nth-child(1) {
+        border-left: 1px solid #F3F3F3;
+    }
+
+    &:nth-child(7),
+    &:nth-child(8) {
+        border-bottom: 1px solid #F3F3F3;
+        width: 100px;
+    }
+
+    &:nth-child(7) {
+        font-family: $heading-font;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 20px;
+        color: #343434;
+    }
+
+    &:nth-child(8) {
+        border-right: 1px solid #F3F3F3;
+    }
+}
+
+.invoice-list tbody .total.s2 td,
+.invoice-list tbody .total.s2 th {
+    border-bottom: 1px solid #F3F3F3;
+}
+
+.invoice-wrap {
+    .account-data {
+        width: 230px;
+        display: inline-block;
+        margin-bottom: 35px;
+
+        h3 {
+            background: #5065F6;
+            font-family: $heading-font;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 15px;
+            color: #FFFFFF;
+        }
+
+        p {
+            font-family: $base-font;
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 11px;
+            letter-spacing: -0.0002px;
+            color: #323343;
+        }
+
+        h5 {
+            font-weight: 700;
+            font-size: 8px;
+            line-height: 8px;
+            color: #323343;
+
+            span {
+                font-weight: 500;
+                font-size: 8px;
+                line-height: 8px;
+                letter-spacing: 0.0016px;
+                text-transform: uppercase;
+                color: #323343;
+            }
+        }
+    }
+
+    .comments {
+        h3 {
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 12px;
+            color: #323343;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 13px;
+            letter-spacing: -0.0002px;
+            color: #757B82;
+        }
+
+    }
+
+}

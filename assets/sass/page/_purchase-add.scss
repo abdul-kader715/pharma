@@ -1,0 +1,211 @@
+/* purchase-add-section */
+.purchase-add-section {
+    padding-bottom: 50px;
+
+    .section-title {
+        padding-bottom: 30px;
+    }
+
+}
+
+.purchase-add {
+    padding: 20px;
+}
+
+.purchase-add-fild {
+    margin-right: 30px;
+}
+
+.purchase-add-fild {
+    label {
+        position: relative;
+        font-family: $base-font;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: $heading-color;
+        margin-bottom: 10px;
+
+        &::before {
+            position: absolute;
+            content: '*';
+            right: -13px;
+            top: 0;
+            font-size: 18px;
+            color: $theme-primary-color;
+        }
+    }
+
+    select {
+        display: none;
+    }
+
+    .form-control {
+        color: $text-color;
+        font-family: $base-font;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        border: 1px solid #F3F3F7;
+        border-radius: 6px;
+        height: 40px;
+        margin-bottom: 20px;
+        width: 100%;
+        padding-left: 18px;
+
+        &:focus {
+            box-shadow: 0 0 0 0.25rem transparent;
+        }
+    }
+}
+
+.purchase-add {
+    .table-responsive {
+        margin-top: 20px;
+
+        .table {
+            @media (max-width:1480px) {
+                width: 1200px;
+            }
+        }
+
+        thead,
+        tbody {
+            tr {
+
+                th,
+                td {
+                    border: 1px solid #F3F3F7;
+                    .form-control {
+                        width: 100%;
+                        height: 100%;
+                        border: 1px solid transparent;
+
+                        &:focus {
+                            box-shadow: 0 0 0 0.25rem transparent;
+                        }
+                    }
+                }
+            }
+
+            .table-title {
+
+                th,
+                td {
+                    border-bottom: 1px solid transparent;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                th {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    thead tr th {
+        color: #8B8B8B;
+        background: #FBFCFC;
+    }
+
+    .nice-select .option.focus,
+    .nice-select .option.selected.focus {
+        display: block;
+        width: 100%;
+    }
+
+    .option.selected.focus {
+        margin: 0;
+    }
+}
+
+.purchase-add .table-responsive tbody tr th {
+    padding: 0;
+}
+
+.purchase-add .table> :not(:last-child)> :last-child>* {
+    border-bottom-color: transparent;
+}
+
+.purchase-add tbody tr td:nth-child(9){
+    height: 100%;
+    width: 66px;
+}
+.purchase-add tbody tr td:last-child{
+    height: 100%;
+    border-right: 1px solid #F3F3F7;
+    background: transparent;
+}
+
+.purchase-add tbody tr td ul li a {
+    border: 0.5px solid #F04B69;
+    border-radius: 5px;
+    background: #FDEDF0;
+}
+
+.purchase-add tbody tr td ul li .add {
+    border: 0.5px solid #28B95E;
+    border-radius: 5px;
+    background: #E9F9EF;
+}
+
+.purchase-add thead tr th.total-cost {
+        background: transparent;
+}
+    
+.total-cost {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: $heading-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: $heading-color;
+    
+    P {
+        margin: 0;
+    }
+
+    span {
+        width: 76px;
+        height: 36px;
+        background: #F3F3F7;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+.purchase-add-btn {
+    text-align: right;
+    margin-top: 20px;
+
+    .theme-btn.s2 {
+        background: #28B95E;
+        padding-left: 15px;
+        width: 115px;
+        text-align: center;
+        margin-right: 10px;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .theme-btn {
+        padding-left: 15px;
+        width: 115px;
+        text-align: center;
+
+        &::before {
+            display: none;
+        }
+    }
+}

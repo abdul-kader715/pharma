@@ -1,0 +1,41 @@
+/* purchase-return */
+
+.purchase-return-list {
+
+    .form-group input:checked + label:after {
+        top: 16px;
+    }
+    .form-group label:before {
+        top: -2px;
+    }
+
+
+
+
+    tbody tr th,
+    tbody tr td {
+        &:last-child {
+            width: 50px;
+        }
+    }
+}
+
+
+.purchase-return-list tbody tr td{
+    line-height: 45px;
+    &:nth-child(6) {
+        width: 300px;
+        line-height: 24px;
+        @media (max-width:767px) {
+            width: 900px;
+        }
+    }
+}
+
+
+.purchase-return-list thead tr th{
+    line-height: 45px;
+    &:nth-child(6) {
+        width: 300px;
+    }
+} 
