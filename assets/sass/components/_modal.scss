@@ -41,3 +41,9 @@
 .modal-header {
     border-bottom: 1px solid #F5F5F5;
 }
+
+@media (min-width: 576px){
+    .addpayment.s2 .modal-dialog {
+        max-width: 430px;
+    }
+}

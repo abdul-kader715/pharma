@@ -1,51 +1,71 @@
 /* payment-list-section */
-.payment-list-section,.sales-information,.customer-payment {
-    .purchase-date{
+.payment-list-section,
+.sales-information,
+.customer-payment,
+.product-list-wrap {
+    .purchase-date {
         margin-top: 20px;
+
         @media (max-width:1320px) {
             margin-top: 40px;
         }
+
         @media (max-width:991px) {
             margin-top: 30px;
             width: 700px
         }
+
         @media (max-width:767px) {
             width: 100%;
         }
-        .form-control{
+
+        .form-control {
             margin-right: 20px;
             width: 285px;
-            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.06);
+            box-shadow: 0px 2px 2px transparent;
             border: transparent;
+
             @media (max-width:1649px) {
                 width: 200px;
             }
+
             @media (max-width:991px) {
                 width: 98%;
                 margin-right: 0;
             }
+
+            &:focus {
+                box-shadow: 0px 2px 2px transparent;
+                box-shadow: none;
+            }
         }
+
     }
-  
+
     .purchase-date .sub-search {
         padding: 4px 8px;
         border-radius: 10px;
         margin-top: -2px;
-        i{
+
+        i {
             font-size: 20px;
         }
     }
-    .section-top-btn{
+
+    .section-top-btn {
         position: absolute;
         right: 15px;
         top: 160px;
+
         @media (max-width:1320px) {
             top: 80px;
         }
+
         @media (max-width:767px) {
             position: unset;
         }
     }
+
     .section-title h2 {
         @media (max-width:767px) {
             font-size: 18px;
@@ -54,7 +74,7 @@
 }
 
 .payment-list {
-    .table{
+    .table {
         @media (max-width:1599px) {
             width: 1250px;
         }
@@ -71,6 +91,7 @@
     .form-group input:checked+label:after {
         top: 20px;
     }
+
     .form-group label:before {
         top: -1px;
     }

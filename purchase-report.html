@@ -631,48 +631,33 @@
         <main id="content" role="main" class="main" style="background: #F5F5F5;">
             <!-- Content -->
             <div class="content container-fluid">
-                <!--start sales-information section -->
-                <div class="purchase-list-section sales-information">
+                <!--start purchase-list section -->
+                <div class="purchase-list-section">
                     <div class="section-title">
-                        <h2>Sales Information</h2>
+                        <h2>Purchase Report</h2>
                     </div>
                     <div class="section-top-btn">
-                        <button class="theme-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Add
-                            Sales</button>
+                        <button class="theme-btn" data-bs-toggle="modal" data-bs-target="#selas-repot">Add Report</button>
                     </div>
                     <div class="purchase-date">
                         <div>
-                            <label>Customer</label>
-                            <select class="form-control">
-                                <option>Enter customer</option>
-                                <option>Enter customer</option>
-                                <option>Enter customer</option>
-                                <option>Enter customer</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label>Invioce ID</label>
-                            <input type="text" class="form-control" placeholder="$B-63215615263">
-                        </div>
-                        <div>
                             <label>Start Date</label>
-                            <input type="text" class="form-control" name="end-date" value="06/30/2022" />
+                            <input type="text" class="form-control" name="start-date" value="10/24/2023" />
                         </div>
                         <div>
                             <label>End Date</label>
-                            <input type="text" class="form-control" name="end-date" value="06/30/2022" />
+                            <input type="text" class="form-control" name="end-date" value="10/24/2023" />
                         </div>
                         <div class="sub-search">
                             <i class="ti-search"></i>
                         </div>
                     </div>
-
                     <div class="purchase-list">
                         <div class="purchase-content">
                             <button class="content-right">Export</button>
                         </div>
                         <div class="table-responsive">
-                            <table class="table s2" id="myTable">
+                            <table class="table" id="myTable">
                                 <thead>
                                     <tr>
                                         <th scope="col">
@@ -682,13 +667,11 @@
                                             </div>
                                         </th>
                                         <th scope="col">Invoice No</th>
-                                        <th scope="col">Customer</th>
+                                        <th scope="col">Pruchase ID</th>
+                                        <th scope="col">Menufacturer Name</th>
                                         <th scope="col">Date</th>
-                                        <th scope="col">Payable Amount</th>
-                                        <th scope="col">Paid Amount</th>
-                                        <th scope="col">Due</th>
-                                        <th scope="col">Change</th>
-                                        <th scope="col">Action</th>
+                                        <th scope="col">Total Amount</th>
+                                        <th scope="col">Purchase By</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -699,23 +682,12 @@
                                                 <label for="html1">01</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -724,23 +696,12 @@
                                                 <label for="html2">02</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -749,23 +710,12 @@
                                                 <label for="html3">03</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -774,23 +724,12 @@
                                                 <label for="html4">04</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -799,23 +738,12 @@
                                                 <label for="html5">05</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -824,23 +752,12 @@
                                                 <label for="html6">06</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -849,23 +766,12 @@
                                                 <label for="html7">07</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -874,23 +780,12 @@
                                                 <label for="html8">08</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -899,23 +794,12 @@
                                                 <label for="html9">09</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -924,23 +808,12 @@
                                                 <label for="html10">10</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -949,23 +822,12 @@
                                                 <label for="html11">11</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -974,23 +836,12 @@
                                                 <label for="html12">12</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -999,23 +850,12 @@
                                                 <label for="html13">13</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                     <tr>
                                         <th scope="col">
@@ -1024,130 +864,74 @@
                                                 <label for="html14">14</label>
                                             </div>
                                         </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
+                                        <th>236167532676367</th>
+                                        <td>TR26367634</td>
+                                        <td>Square Pharma</td>
                                         <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html15">
-                                                <label for="html14">15</label>
-                                            </div>
-                                        </th>
-                                        <th>#B-123456789</th>
-                                        <td>Kathyn Murphy</td>
-                                        <td>2022-12-27</td>
-                                        <td>$120.00</td>
-                                        <td>$120.00</td>
-                                        <td>00.00</td>
-                                        <td>$120.00</td>
-                                        <td>
-                                            <ul>
-                                                <li><a href="#"><img src="assets/images/ft-icon/eye.svg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
-                                                </li>
-                                                <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
-                                                </li>
-                                            </ul>
-                                        </td>
+                                        <td>$345.00</td>
+                                        <td>Admin</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
-                <!--end sales-information section -->
+                <!--end purchase-list section -->
             </div>
             <!-- End Content -->
         </main>
-
-        <!-- addpayment -->
-        <div class="modal fade addpayment" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
-            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Sales Information add</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-lg-6 col-12">
-                                <div class="purchase-add-fild">
-                                    <label>Customer</label>
-                                    <input type="text" class="form-control" placeholder="Jone Coper">
-                                </div>
+        <div class="modal fade addpayment" id="selas-repot">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title">Add Sales Report</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="row">
+                          <div class="col-lg-6 col-12">
+                              <div class="purchase-add-fild">
+                                  <label>Menufacturer Name</label>
+                                  <input type="text" class="form-control" placeholder="Jone Coper">
+                              </div>
+                          </div>
+                          <div class="col-lg-6 col-12">
+                              <div class="purchase-add-fild">
+                                  <label>Date</label>
+                                  <input type="text" class="form-control" name="pay-date" value="02/28/2022" />
+                              </div>
                             </div>
                             <div class="col-lg-6 col-12">
                                 <div class="purchase-add-fild">
-                                    <label>Date</label>
-                                    <input type="text" class="form-control" name="pay-date" value="02/28/2022" />
+                                    <label>Invoice No</label>
+                                    <input type="text" class="form-control" placeholder="1445133444">
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-12">
-                                <div class="purchase-add-fild">
-                                    <label>Invoice ID</label>
-                                    <input type="text" class="form-control" placeholder="#T-133444">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-12">
-                                <div class="purchase-add-fild">
-                                    <label>Payable Amount</label>
-                                    <input type="number" class="form-control" placeholder="$00.00">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-12">
-                                <div class="purchase-add-fild">
-                                    <label>Paid Amount</label>
-                                    <input type="number" class="form-control" placeholder="$00.00">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-12">
-                                <div class="purchase-add-fild">
-                                    <label>Due</label>
-                                    <input type="number" class="form-control" placeholder="$00.00">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-12">
-                                <div class="purchase-add-fild">
-                                    <label>Change</label>
-                                    <input type="number" class="form-control" placeholder="$00.00">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-12">
-                                <div class="purchase-add-fild">
-                                    <label>Payment Method</label>
-                                    <select class="form-control">
-                                        <option>Cash Hand</option>
-                                        <option>Cash Hand</option>
-                                        <option>Cash Hand</option>
-                                        <option>Cash Hand</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                        <button type="button" class="btn btn-primary">Save</button>
-                    </div>
-                </div>
+                          <div class="col-lg-6 col-12">
+                              <div class="purchase-add-fild">
+                                  <label>Pruchase ID</label>
+                                  <input type="text" class="form-control" placeholder="#T-133444">
+                              </div>
+                          </div>
+                          <div class="col-lg-6 col-12">
+                              <div class="purchase-add-fild">
+                                  <label>Receivable Amount</label>
+                                  <input type="text" class="form-control" placeholder="Coustomer name">
+                              </div>
+                          </div>
+                          <div class="col-lg-6 col-12">
+                              <div class="purchase-add-fild">
+                                  <label>Total Amount</label>
+                                  <input type="number" class="form-control" placeholder="$00.00">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary">Save</button>
+                  </div>
+               </div>
             </div>
         </div>
 

@@ -53,7 +53,54 @@ $(document).ready(function () {
       }
     }
   });
+});
 
+$(document).ready(function () {
+  $('#brandTable').DataTable({
+    searching: false,
+    language: {
+      paginate: {
+        next: '<i class="ti-angle-right">',
+        previous: '<i class="ti-angle-left">'
+      }
+    }
+  });
+});
+
+$(document).ready(function () {
+  $('#manage-categorieTable').DataTable({
+    searching: false,
+    language: {
+      paginate: {
+        next: '<i class="ti-angle-right">',
+        previous: '<i class="ti-angle-left">'
+      }
+    }
+  });
+});
+
+$(document).ready(function () {
+  $('#manage-productTable').DataTable({
+    searching: false,
+    language: {
+      paginate: {
+        next: '<i class="ti-angle-right">',
+        previous: '<i class="ti-angle-left">'
+      }
+    }
+  });
+});
+
+$(document).ready(function () {
+  $('#mang-typeTable').DataTable({
+    searching: false,
+    language: {
+      paginate: {
+        next: '<i class="ti-angle-right">',
+        previous: '<i class="ti-angle-left">'
+      }
+    }
+  });
 });
 
 $(function () {
