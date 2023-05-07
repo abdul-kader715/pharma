@@ -521,7 +521,7 @@
                                         <span class="nav-link-title">Product</span>
                                     </a>
 
-                                  <div id="navbarVerticalMenuPagesEcommerceMenu" class="nav-collapse collapse"
+                                    <div id="navbarVerticalMenuPagesEcommerceMenu" class="nav-collapse collapse"
                                         data-bs-parent="#navbarVerticalMenuPagesMenu">
                                         <a class="nav-link " href="product-list.html">Product List</a>
                                         <a class="nav-link " href="product-package.html">Product Package</a>
@@ -609,7 +609,7 @@
                                         <span class="nav-link-title">Employee</span>
                                     </a>
 
-                                 <div id="navbarVerticalMenuAuthentication" class="nav-collapse collapse "
+                                    <div id="navbarVerticalMenuAuthentication" class="nav-collapse collapse "
                                         data-bs-parent="#navbarVerticalMenu">
                                         <div id="navbarVerticalMenuAuthenticationMenu">
                                             <a class="nav-link " href="employee.html">Employee</a>
@@ -618,6 +618,9 @@
                                             <a class="nav-link " href="expense.html">Expense</a>
                                         </div>
                                     </div>
+
+
+
                                 </div>
                                 <!-- End Collapse -->
                                 <div class="nav-item">
@@ -637,313 +640,248 @@
         </aside>
 
         <!-- End Navbar Vertical -->
-
-        <main id="content" role="main" class="main" style="background: #F5F5F5;">
+        <main id="content" class="main s2">
             <!-- Content -->
             <div class="content container-fluid">
-                <!--start purchase-list section -->
-                <div class="purchase-list-section">
-                    <div class="section-title">
-                        <h2>Purchase Report</h2>
-                    </div>
-                    <div class="section-top-btn">
-                        <button class="theme-btn" data-bs-toggle="modal" data-bs-target="#selas-repot">Add Report</button>
-                    </div>
-                    <div class="purchase-date">
-                        <div>
-                            <label>Start Date</label>
-                            <input type="text" class="form-control" name="start-date" value="10/24/2023" />
+                <!--start product-list section -->
+                <div class="product-list-section">
+                    <div class="product-list-wrap damaged-product">
+                        <div class="section-title">
+                            <h2>Menufacturer List</h2>
                         </div>
-                        <div>
-                            <label>End Date</label>
-                            <input type="text" class="form-control" name="end-date" value="10/24/2023" />
+                        <div class="section-top-btn">
+                            <button class="theme-btn" data-bs-toggle="modal" data-bs-target="#product-list-add">Add New</button>
                         </div>
-                        <div class="sub-search">
-                            <i class="ti-search"></i>
+                        <div class="purchase-date">
+                            <div class="search-brand">
+                                <label>Search Brand</label>
+                                <input type="text" class="form-control" placeholder="search anythings" />
+                            </div>
+                            <div class="sub-search">
+                                <i class="ti-search"></i>
+                            </div>
                         </div>
-                    </div>
-                    <div class="purchase-list">
-                        <div class="purchase-content">
-                            <button class="content-right">Export</button>
+                        <div class="purchase-list">
+                            <div class="purchase-content">
+                                <button class="content-right">Export</button>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table s5" id="myTable">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <div class="form-group s2">
+                                                    <input type="checkbox" id="html">
+                                                    <label for="html">Sl</label>
+                                                </div>
+                                            </th>
+                                            <th scope="col">Date</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Company Name</th>
+                                            <th scope="col">Email</th>
+                                            <th scope="col">Phone</th>
+                                            <th scope="col">Address</th>
+                                            <th scope="col">Balance</th>
+                                            <th scope="col">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="checkbox" id="html1">
+                                                    <label for="html1">01</label>
+                                                </div>
+                                            </td>
+                                            <td>22 Feb 2022</td>
+                                            <td>Annette Black</td>
+                                            <td>Beximco Pharma</td>
+                                            <td>jane@example.com</td>
+                                            <td>(207) 555-0119</td>
+                                            <td>1901 Thornridge Cir. Shiloh, Hawaii 81063</td>
+                                            <td>$300.00</td>
+                                            <td>
+                                                <ul>
+                                                    <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
+                                                    </li>
+                                                    <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="checkbox" id="html2">
+                                                    <label for="html2">02</label>
+                                                </div>
+                                            </td>
+                                            <td>24 Feb 2022</td>
+                                            <td>Arlene McCoy</td>
+                                            <td>Beximco Pharma</td>
+                                            <td>mcc@example.com</td>
+                                            <td>(302) 555-0107</td>
+                                            <td>2715 Ash Dr. San Jose, Dakota 83475</td>
+                                            <td>$300.00</td>
+                                            <td>
+                                                <ul>
+                                                    <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
+                                                    </li>
+                                                    <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="checkbox" id="html3">
+                                                    <label for="html3">03</label>
+                                                </div>
+                                            </td>
+                                            <td>26 Feb 2022</td>
+                                            <td>Robert Fox</td>
+                                            <td>Beximco Pharma</td>
+                                            <td>foxe@example.com</td>
+                                            <td>(219) 555-0114</td>
+                                            <td>2464 Royal Ln. Mesa, New Jersey 45463</td>
+                                            <td>$300.00</td>
+                                            <td>
+                                                <ul>
+                                                    <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
+                                                    </li>
+                                                    <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="checkbox" id="html4">
+                                                    <label for="html4">04</label>
+                                                </div>
+                                            </td>
+                                            <td>27 Feb 2022</td>
+                                            <td>Albert Flores</td>
+                                            <td>Beximco Pharma</td>
+                                            <td>flores@example.com</td>
+                                            <td>(207) 555-0119</td>
+                                            <td>4140 Parker Rd. town Mexico 31134</td>
+                                            <td>$300.00</td>
+                                            <td>
+                                                <ul>
+                                                    <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
+                                                    </li>
+                                                    <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="checkbox" id="html5">
+                                                    <label for="html5">05</label>
+                                                </div>
+                                            </td>
+                                            <td>05 Mar 2022</td>
+                                            <td>Jerome Bell</td>
+                                            <td>Beximco Pharma</td>
+                                            <td>jane@example.com</td>
+                                            <td>(207) 555-0119</td>
+                                            <td>3517 W. Gray St. Pennsylvania 57867</td>
+                                            <td>$300.00</td>
+                                            <td>
+                                                <ul>
+                                                    <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
+                                                    </li>
+                                                    <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="form-group">
+                                                    <input type="checkbox" id="html6">
+                                                    <label for="html6">06</label>
+                                                </div>
+                                            </td>
+                                            <td>22 Feb 2022</td>
+                                            <td>Annette Black</td>
+                                            <td>Beximco Pharma</td>
+                                            <td>jane@example.com</td>
+                                            <td>(207) 555-0119</td>
+                                            <td>3517 W. Gray St. Pennsylvania 57867</td>
+                                            <td>$300.00</td>
+                                            <td>
+                                                <ul>
+                                                    <li><a href="#"><img src="assets/images/ft-icon/edit-2.jpg" alt=""></a>
+                                                    </li>
+                                                    <li><a href="#"><img src="assets/images/ft-icon/trash.jpg" alt=""></a>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
-                        <div class="table-responsive">
-                            <table class="table" id="myTable">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group s2">
-                                                <input type="checkbox" id="html">
-                                                <label for="html">Sl</label>
+                        <!-- addnew modal -->
+                        <div class="modal fade addpayment s2" id="product-list-add">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Add Menufacturer</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="purchase-add-fild">
+                                                    <label>Menufacturer Name</label>
+                                                    <input type="text" class="form-control" placeholder="Menufacturer Name">
+                                                </div>
                                             </div>
-                                        </th>
-                                        <th scope="col">Invoice No</th>
-                                        <th scope="col">Pruchase ID</th>
-                                        <th scope="col">Menufacturer Name</th>
-                                        <th scope="col">Date</th>
-                                        <th scope="col">Total Amount</th>
-                                        <th scope="col">Purchase By</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html1">
-                                                <label for="html1">01</label>
+                                            <div class="col-12">
+                                                <div class="purchase-add-fild">
+                                                    <label>Email Address</label>
+                                                    <input type="email" class="form-control" placeholder="@mail.com">
+                                                </div>
                                             </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html2">
-                                                <label for="html2">02</label>
+                                            <div class="col-12">
+                                                <div class="purchase-add-fild">
+                                                    <label>Phone</label>
+                                                    <input type="number" class="form-control" placeholder="(202) 345 345 655">
+                                                </div>
                                             </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html3">
-                                                <label for="html3">03</label>
+                                            <div class="col-12">
+                                                <div class="purchase-add-fild">
+                                                    <label>Address Line</label>
+                                                    <input type="text" class="form-control" placeholder="6 Merus Court, Meridian Business Park.">
+                                                </div>
                                             </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html4">
-                                                <label for="html4">04</label>
+                                            <div class="col-12">
+                                                <div class="purchase-add-fild">
+                                                    <label>Previous Balance</label>
+                                                    <input type="text" class="form-control" placeholder="6 Merus Court, Meridian Business Park.">
+                                                </div>
                                             </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html5">
-                                                <label for="html5">05</label>
-                                            </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html6">
-                                                <label for="html6">06</label>
-                                            </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html7">
-                                                <label for="html7">07</label>
-                                            </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html8">
-                                                <label for="html8">08</label>
-                                            </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html9">
-                                                <label for="html9">09</label>
-                                            </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html10">
-                                                <label for="html10">10</label>
-                                            </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html11">
-                                                <label for="html11">11</label>
-                                            </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html12">
-                                                <label for="html12">12</label>
-                                            </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html13">
-                                                <label for="html13">13</label>
-                                            </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">
-                                            <div class="form-group">
-                                                <input type="checkbox" id="html14">
-                                                <label for="html14">14</label>
-                                            </div>
-                                        </th>
-                                        <th>236167532676367</th>
-                                        <td>TR26367634</td>
-                                        <td>Square Pharma</td>
-                                        <td>2022-12-27</td>
-                                        <td>$345.00</td>
-                                        <td>Admin</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Cancel</button>
+                                        <button type="button" class="btn btn-primary">Save</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!--end purchase-list section -->
             </div>
-            <!-- End Content -->
         </main>
-        <div class="modal fade addpayment" id="selas-repot">
-          <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                      <h5 class="modal-title">Add Sales Report</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                      <div class="row">
-                          <div class="col-lg-6 col-12">
-                              <div class="purchase-add-fild">
-                                  <label>Menufacturer Name</label>
-                                  <input type="text" class="form-control" placeholder="Jone Coper">
-                              </div>
-                          </div>
-                          <div class="col-lg-6 col-12">
-                              <div class="purchase-add-fild">
-                                  <label>Date</label>
-                                  <input type="text" class="form-control" name="pay-date" value="02/28/2022" />
-                              </div>
-                            </div>
-                            <div class="col-lg-6 col-12">
-                                <div class="purchase-add-fild">
-                                    <label>Invoice No</label>
-                                    <input type="text" class="form-control" placeholder="1445133444">
-                                </div>
-                            </div>
-                          <div class="col-lg-6 col-12">
-                              <div class="purchase-add-fild">
-                                  <label>Pruchase ID</label>
-                                  <input type="text" class="form-control" placeholder="#T-133444">
-                              </div>
-                          </div>
-                          <div class="col-lg-6 col-12">
-                              <div class="purchase-add-fild">
-                                  <label>Receivable Amount</label>
-                                  <input type="text" class="form-control" placeholder="Coustomer name">
-                              </div>
-                          </div>
-                          <div class="col-lg-6 col-12">
-                              <div class="purchase-add-fild">
-                                  <label>Total Amount</label>
-                                  <input type="number" class="form-control" placeholder="$00.00">
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                      <button type="button" class="btn btn-primary">Save</button>
-                  </div>
-               </div>
-            </div>
-        </div>
+
 
     </div>
     <!-- end of page-wrapper -->
@@ -960,10 +898,6 @@
     <script src="assets/js/daterangepicker.min.js"></script>
     <!-- Custom script for this template -->
     <script src="assets/js/script.js"></script>
-
-
-
-
 
 
 </body>

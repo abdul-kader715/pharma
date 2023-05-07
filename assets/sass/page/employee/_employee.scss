@@ -1,0 +1,178 @@
+/* employee-section */
+.employee-section {
+
+
+    .section-top-btn {
+        top: 85px;
+    }
+
+    .purchase-date {
+        width: 650px;
+
+        @media (max-width:991px) {
+            width: 500px;
+        }
+
+        @media (max-width:767px) {
+            width: 100%;
+        }
+    }
+
+
+    .purchase-date .form-control {
+        @media (max-width:1649px) {
+            width: 285px;
+        }
+
+        @media (max-width:991px) {
+            width: 210px;
+            margin-right: 20px;
+        }
+
+        @media (max-width:767px) {
+            width: 100%;
+        }
+
+    }
+
+    .employee-card {
+        position: absolute;
+        right: 17px;
+        top: 140px;
+        width: 219px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+
+        @media (max-width:767px) {
+            position: unset;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .item {
+            text-align: center;
+
+            span {
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 16px;
+                color: #757B82;
+            }
+
+            .vaction,
+            .day,
+            .office {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                color: #5065F6;
+
+                img {
+                    width: 14px;
+                    height: 14px;
+                    margin-right: 5px;
+                }
+            }
+
+            .day {
+                color: #F04B69;
+            }
+
+            .office {
+                color: #28B95E;
+            }
+        }
+    }
+
+    .card-item {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+        border-radius: 10px;
+        padding: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        @media (max-width:1399px){
+            padding: 15px;   
+        }
+        @media (max-width:1199px){
+            padding: 20px;   
+        }
+    }
+
+    .card-header-content {
+        display: flex;
+        align-content: center;
+        justify-content: start;
+        position: relative;
+        margin-bottom: 15px;
+
+        .image {
+            img {
+                height: 52px;
+                width: 52px;
+                border-radius: 8px;
+            }
+        }
+
+        .name {
+            margin-left: 12px;
+
+            h2 {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #323343;
+            }
+
+            span {
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 16px;
+                color: #5065F6;
+                background: #EDEFFE;
+                border-radius: 10px;
+                padding: 5px 10px;
+            }
+        }
+
+        .card-btn {
+            position: absolute;
+            right: 0;
+            top: 0;
+            transform: rotate(90deg);
+
+            i {
+                color: #9EA3A7;
+            }
+        }
+    }
+
+    .info {
+
+        .ditl {
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 10px;
+
+            span {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 12px;
+                color: #757B82;
+            }
+
+            p {
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                color: #323343;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+}
