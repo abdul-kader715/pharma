@@ -95,11 +95,13 @@
         padding: 20px;
         padding-bottom: 10px;
         margin-bottom: 30px;
-        @media (max-width:1399px){
-            padding: 15px;   
+
+        @media (max-width:1399px) {
+            padding: 15px;
         }
-        @media (max-width:1199px){
-            padding: 20px;   
+
+        @media (max-width:1199px) {
+            padding: 20px;
         }
     }
 
@@ -176,3 +178,306 @@
     }
 
 }
+
+
+
+/* attendence */
+.attendence-wrap {
+
+
+    .section-top-btn {
+        position: relative;
+        top: -35px;
+
+        @media (max-width:767px) {
+            top: 0;
+        }
+    }
+
+    .purchase-date {
+        width: fit-content;
+
+        @media (max-width:767px) {
+            width: 100%;
+        }
+    }
+
+    .form-control {
+        width: 95%;
+
+        @media (max-width:767px) {
+            margin-right: 0;
+            width: 100%;
+        }
+    }
+}
+
+.attendence-table {
+    padding-top: 0;
+
+    .dataTables_wrapper .dataTables_length label {
+        display: none;
+    }
+
+    tbody tr th {
+
+        img {
+            border-radius: 6px;
+        }
+
+        span {
+            padding-left: 12px;
+        }
+    }
+
+    tbody tr th {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 45px;
+        color: #323343;
+    }
+
+    tbody tr td .btn {
+        border: 1px solid #A7B1F9;
+        background: #EDEFFE;
+        border-radius: 5px;
+        padding: 8px 12px;
+        color: #5065F6;
+    }
+
+    table.dataTable thead th,
+    table.dataTable tbody td {
+        &:last-child {
+            text-align: center;
+        }
+    }
+
+    table.dataTable thead>tr>th.sorting {
+        padding-right: 10px;
+    }
+}
+
+/* payroll-peges start css */
+.payroll-peges {
+
+    .section-title {
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+
+
+    .product-list-wrap .section-top-btn {
+        top: 155px;
+
+        @media (max-width: 883px) {
+            top: 190px;
+            right: 15px;
+        }
+
+    }
+
+    .dataTables_wrapper .dataTables_length label {
+        display: none;
+    }
+
+    .purchase-list {
+        padding-top: 0;
+    }
+
+    .product-list-wrap .form-control,
+    .manage-brand-area .form-control {
+        width: 100%;
+    }
+
+    .manage-brand-area {
+        .section-title {
+            margin-bottom: 20px;
+
+            h2 {
+                @media (max-width:767px) {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .section-top-btn {
+            top: -55px;
+            position: relative;
+
+            @media (max-width:991px) {
+                left: auto;
+            }
+
+            @media (max-width:767px) {
+                top: -5px;
+            }
+        }
+
+        tbody tr th {
+            width: 17%;
+        }
+
+        tbody tr th {
+
+            img {
+                border-radius: 6px;
+            }
+
+            span {
+                padding-left: 12px;
+            }
+        }
+
+
+
+    }
+
+    .dataTables_wrapper .dataTables_paginate {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .manage-categorie {
+
+        .section-title {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width:767px) {
+            .purchase-date {
+                width: 100%;
+                margin-top: 5px;
+            }
+
+        }
+
+        tbody tr th {
+            width: 20%;
+        }
+
+        table.dataTable thead th,
+        table.dataTable tbody td {
+            &:last-child {
+                text-align: center;
+            }
+        }
+
+        .table {
+            @media (max-width: 991px) {
+                width: 1000px;
+            }
+        }
+
+    }
+
+    .salary-payment {
+
+        .section-title {
+            margin-bottom: 0px;
+        }
+
+        #manage-productTable_info {
+            display: none;
+        }
+
+        .dataTables_wrapper .dataTables_length label {
+            display: block;
+        }
+
+        .purchase-list {
+            padding-top: 30px;
+        }
+
+        tbody tr th {
+            width: 10%;
+        }
+
+        tbody tr th:first-child {
+            width: 5%;
+        }
+
+        tbody tr th:nth-child(2) {
+            width: 15%;
+
+            @media (max-width:1685px) {
+                width: 12%;
+            }
+        }
+
+        tbody tr th:nth-child(3) {
+            width: 13%;
+
+            @media (max-width:1685px) {
+                width: 10%;
+            }
+        }
+
+        tbody tr th:nth-child(6) {
+            width: 13%;
+
+            @media (max-width:1685px) {
+                width: 10%;
+            }
+        }
+
+        tbody tr td:last-child {
+            width: 10%;
+
+            @media (max-width:1685px) {
+                width: 8%;
+            }
+        }
+
+        .table {
+            @media (max-width:1530px) {
+                width: 1270px;
+            }
+        }
+    }
+
+    .expence-wrap {
+
+        tbody tr th:first-child {
+            width: 50%;
+
+            @media (max-width:767px) {
+                width: 30%;
+            }
+        }
+
+        tbody tr th:nth-child(2) {
+            width: 30%;
+
+            @media (max-width:767px) {
+                width: 35%;
+            }
+        }
+
+        tbody tr td:last-child {
+            width: 40%;
+            text-align: right;
+
+            @media (max-width:767px) {
+                width: 35%;
+            }
+        }
+
+        thead tr th:last-child {
+            width: 20%;
+            text-align: right;
+        }
+
+        .table {
+            @media (max-width:1530px) {
+                width: 100%;
+            }
+
+            @media (max-width:575px) {
+                width: 550px;
+            }
+        }
+    }
+
+}
+

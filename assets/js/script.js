@@ -90,6 +90,28 @@ $(document).ready(function () {
     }
   });
 });
+$(document).ready(function () {
+  $('#manage-productTable-2').DataTable({
+    searching: false,
+    language: {
+      paginate: {
+        next: '<i class="ti-angle-right">',
+        previous: '<i class="ti-angle-left">'
+      }
+    }
+  });
+});
+$(document).ready(function () {
+  $('#manage-productTable-3').DataTable({
+    searching: false,
+    language: {
+      paginate: {
+        next: '<i class="ti-angle-right">',
+        previous: '<i class="ti-angle-left">'
+      }
+    }
+  });
+});
 
 $(document).ready(function () {
   $('#mang-typeTable').DataTable({
@@ -183,3 +205,32 @@ $(function () {
 
 
 
+/* images-show */
+
+$(document).ready(function() {
+  if (window.File && window.FileList && window.FileReader) {
+    $("#files").on("change", function(e) {
+      var files = e.target.files,
+        filesLength = files.length;
+      for (var i = 0; i < filesLength; i++) {
+        var f = files[i]
+        var fileReader = new FileReader();
+        fileReader.onload = (function(e) {
+          var file = e.target;
+          $("<span class=\"pip\">" +
+            "<img class=\"imageThumb\" src=\"" + e.target.result + "\" title=\"" + file.name + "\"/>" +
+            "<br/><span class=\"remove\">Remove image</span>" +
+            "</span>").insertAfter("#files");
+          $(".remove").click(function(){
+            $(this).parent(".pip").remove();
+          });
+          
+        });
+        fileReader.readAsDataURL(f);
+      }
+      console.log(files);
+    });
+  } else {
+    alert("Your browser doesn't support to File API")
+  }
+});

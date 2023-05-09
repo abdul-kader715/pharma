@@ -539,7 +539,7 @@ img {
 }
 
 .btn {
-  padding: 0.9rem 0;
+  padding: 0.6rem 0;
   border-radius: 10px;
 }
 
@@ -10037,4 +10037,517 @@ table.dataTable.display > tbody > tr:hover > * {
   line-height: 20px;
   color: #323343;
   margin-bottom: 0;
+}
+
+/* attendence */
+.attendence-wrap .section-top-btn {
+  position: relative;
+  top: -35px;
+}
+@media (max-width: 767px) {
+  .attendence-wrap .section-top-btn {
+    top: 0;
+  }
+}
+.attendence-wrap .purchase-date {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+@media (max-width: 767px) {
+  .attendence-wrap .purchase-date {
+    width: 100%;
+  }
+}
+.attendence-wrap .form-control {
+  width: 95%;
+}
+@media (max-width: 767px) {
+  .attendence-wrap .form-control {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+.attendence-table {
+  padding-top: 0;
+}
+.attendence-table .dataTables_wrapper .dataTables_length label {
+  display: none;
+}
+.attendence-table tbody tr th img {
+  border-radius: 6px;
+}
+.attendence-table tbody tr th span {
+  padding-left: 12px;
+}
+.attendence-table tbody tr th {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 45px;
+  color: #323343;
+}
+.attendence-table tbody tr td .btn {
+  border: 1px solid #A7B1F9;
+  background: #EDEFFE;
+  border-radius: 5px;
+  padding: 8px 12px;
+  color: #5065F6;
+}
+.attendence-table table.dataTable thead th:last-child,
+.attendence-table table.dataTable tbody td:last-child {
+  text-align: center;
+}
+.attendence-table table.dataTable thead > tr > th.sorting {
+  padding-right: 10px;
+}
+
+/* payroll-peges start css */
+.payroll-peges .section-title {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.payroll-peges .product-list-wrap .section-top-btn {
+  top: 155px;
+}
+@media (max-width: 883px) {
+  .payroll-peges .product-list-wrap .section-top-btn {
+    top: 190px;
+    right: 15px;
+  }
+}
+.payroll-peges .dataTables_wrapper .dataTables_length label {
+  display: none;
+}
+.payroll-peges .purchase-list {
+  padding-top: 0;
+}
+.payroll-peges .product-list-wrap .form-control,
+.payroll-peges .manage-brand-area .form-control {
+  width: 100%;
+}
+.payroll-peges .manage-brand-area .section-title {
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .payroll-peges .manage-brand-area .section-title h2 {
+    font-size: 18px;
+  }
+}
+.payroll-peges .manage-brand-area .section-top-btn {
+  top: -55px;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .payroll-peges .manage-brand-area .section-top-btn {
+    left: auto;
+  }
+}
+@media (max-width: 767px) {
+  .payroll-peges .manage-brand-area .section-top-btn {
+    top: -5px;
+  }
+}
+.payroll-peges .manage-brand-area tbody tr th {
+  width: 17%;
+}
+.payroll-peges .manage-brand-area tbody tr th img {
+  border-radius: 6px;
+}
+.payroll-peges .manage-brand-area tbody tr th span {
+  padding-left: 12px;
+}
+.payroll-peges .dataTables_wrapper .dataTables_paginate {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.payroll-peges .manage-categorie .section-title {
+  margin-bottom: 5px;
+}
+@media (max-width: 767px) {
+  .payroll-peges .manage-categorie .purchase-date {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+.payroll-peges .manage-categorie tbody tr th {
+  width: 20%;
+}
+.payroll-peges .manage-categorie table.dataTable thead th:last-child,
+.payroll-peges .manage-categorie table.dataTable tbody td:last-child {
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .payroll-peges .manage-categorie .table {
+    width: 1000px;
+  }
+}
+.payroll-peges .salary-payment .section-title {
+  margin-bottom: 0px;
+}
+.payroll-peges .salary-payment #manage-productTable_info {
+  display: none;
+}
+.payroll-peges .salary-payment .dataTables_wrapper .dataTables_length label {
+  display: block;
+}
+.payroll-peges .salary-payment .purchase-list {
+  padding-top: 30px;
+}
+.payroll-peges .salary-payment tbody tr th {
+  width: 10%;
+}
+.payroll-peges .salary-payment tbody tr th:first-child {
+  width: 5%;
+}
+.payroll-peges .salary-payment tbody tr th:nth-child(2) {
+  width: 15%;
+}
+@media (max-width: 1685px) {
+  .payroll-peges .salary-payment tbody tr th:nth-child(2) {
+    width: 12%;
+  }
+}
+.payroll-peges .salary-payment tbody tr th:nth-child(3) {
+  width: 13%;
+}
+@media (max-width: 1685px) {
+  .payroll-peges .salary-payment tbody tr th:nth-child(3) {
+    width: 10%;
+  }
+}
+.payroll-peges .salary-payment tbody tr th:nth-child(6) {
+  width: 13%;
+}
+@media (max-width: 1685px) {
+  .payroll-peges .salary-payment tbody tr th:nth-child(6) {
+    width: 10%;
+  }
+}
+.payroll-peges .salary-payment tbody tr td:last-child {
+  width: 10%;
+}
+@media (max-width: 1685px) {
+  .payroll-peges .salary-payment tbody tr td:last-child {
+    width: 8%;
+  }
+}
+@media (max-width: 1530px) {
+  .payroll-peges .salary-payment .table {
+    width: 1270px;
+  }
+}
+.payroll-peges .expence-wrap tbody tr th:first-child {
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .payroll-peges .expence-wrap tbody tr th:first-child {
+    width: 30%;
+  }
+}
+.payroll-peges .expence-wrap tbody tr th:nth-child(2) {
+  width: 30%;
+}
+@media (max-width: 767px) {
+  .payroll-peges .expence-wrap tbody tr th:nth-child(2) {
+    width: 35%;
+  }
+}
+.payroll-peges .expence-wrap tbody tr td:last-child {
+  width: 40%;
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .payroll-peges .expence-wrap tbody tr td:last-child {
+    width: 35%;
+  }
+}
+.payroll-peges .expence-wrap thead tr th:last-child {
+  width: 20%;
+  text-align: right;
+}
+@media (max-width: 1530px) {
+  .payroll-peges .expence-wrap .table {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .payroll-peges .expence-wrap .table {
+    width: 550px;
+  }
+}
+
+/* add-employee-section */
+.add-employee-section {
+  padding-bottom: 100px;
+}
+.add-employee-section .back-btn {
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #757B82;
+  margin-bottom: 20px;
+}
+.add-employee-section .back-btn i {
+  line-height: 20px;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.designation {
+  margin-top: 30px;
+}
+@media (max-width: 768px) {
+  .designation {
+    margin-top: 0;
+  }
+}
+.designation h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #323343;
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .designation .designation-main {
+    display: none;
+  }
+}
+.designation .card-item {
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+@media (max-width: 1699px) {
+  .designation .card-item {
+    margin-right: 0;
+  }
+}
+.designation .card-item .checkbox .checkbox-input {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.designation .card-item .checkbox .checkbox-input:checked + .checkbox-tile {
+  border-color: #2260ff;
+}
+.designation .card-item .checkbox .checkbox-input:checked + .checkbox-tile:before {
+  transform: scale(1);
+  opacity: 1;
+  background-color: #2260ff;
+  border-color: #2260ff;
+}
+.designation .card-item .checkbox .checkbox-input:focus + .checkbox-tile {
+  border-color: #2260ff;
+}
+.designation .card-item .checkbox .checkbox-input:focus + .checkbox-tile:before {
+  transform: scale(1);
+  opacity: 1;
+}
+.designation .card-item .checkbox-tile {
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  transition: 0.15s ease;
+  cursor: pointer;
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(80, 101, 246, 0.1);
+  border-radius: 4px;
+  padding: 10px 14px;
+  padding-left: 50px;
+  display: block;
+}
+@media (max-width: 1399px) {
+  .designation .card-item .checkbox-tile {
+    padding-top: 40px;
+    padding-left: 15px;
+  }
+}
+.designation .card-item .checkbox-tile:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 1.5px solid rgba(117, 123, 130, 0.8);
+  border-radius: 5px;
+  background-color: #fff;
+  top: 37%;
+  left: 15px;
+  opacity: 1;
+  transform: scale(1);
+  transition: 0.25s ease;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' fill='%23FFFFFF' viewBox='0 0 256 256'%3E%3Crect width='256' height='256' fill='none'%3E%3C/rect%3E%3Cpolyline points='216 72.005 104 184 48 128.005' fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-width='32'%3E%3C/polyline%3E%3C/svg%3E");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+@media (max-width: 1399px) {
+  .designation .card-item .checkbox-tile:before {
+    top: 9%;
+  }
+}
+.designation .card-item .checkbox-tile:hover {
+  border-color: #2260ff;
+}
+.designation .card-item .checkbox-tile small {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #323343;
+  margin-bottom: 8px;
+  display: block;
+}
+.designation .card-item .checkbox-tile span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #757B82;
+}
+
+@media (min-width: 768px) {
+  .designation-media {
+    display: none;
+  }
+}
+.designation-media .form-control {
+  width: 100%;
+  box-shadow: 0px 2px 2px transparent;
+  background: #FFFFFF;
+  border: 1px solid #E1E3E5;
+  border-radius: 4px;
+}
+.designation-media .nice-select {
+  line-height: 30px;
+}
+
+.personal-Info {
+  width: 90%;
+}
+@media (max-width: 1399px) {
+  .personal-Info {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .personal-Info {
+    margin-top: 50px;
+  }
+}
+.personal-Info h3 {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #323343;
+}
+.personal-Info .personal-add-fild {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.personal-Info .personal-add-fild label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #323343;
+  margin-bottom: 5px;
+  display: block;
+}
+.personal-Info .personal-add-fild .form-control {
+  display: block;
+  width: 100%;
+  box-shadow: 0px 2px 2px transparent;
+  border: transparent;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #9EA3A7;
+  background: #FFFFFF;
+  border: 1px solid #E1E3E5;
+  border-radius: 4px;
+}
+.personal-Info .personal-add-fild.status label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #323343;
+  margin-bottom: 5px;
+  display: block;
+}
+.personal-Info .personal-add-fild.status div {
+  display: inline-block;
+  width: 20%;
+}
+@media (max-width: 1650px) {
+  .personal-Info .personal-add-fild.status div {
+    width: 30%;
+  }
+}
+.personal-Info .personal-add-fild.status div #html3 {
+  display: inline-block;
+}
+.personal-Info .personal-add-fild.status div label {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #323343;
+}
+.personal-Info .personal-add-fild {
+  position: relative;
+}
+.personal-Info .personal-add-fild .image-show {
+  width: 50%;
+  display: inline;
+}
+@media (max-width: 767px) {
+  .personal-Info .personal-add-fild .image-show {
+    width: 100%;
+  }
+}
+.personal-Info .personal-add-fild .imageThumb {
+  max-width: 118px;
+  max-height: 118px;
+  background: #FFDB45;
+  cursor: pointer;
+}
+.personal-Info .personal-add-fild .pip {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media (max-width: 767px) {
+  .personal-Info .personal-add-fild .pip {
+    position: unset;
+    display: block;
+    margin-top: 20px;
+  }
+}
+.personal-Info .personal-add-fild .remove {
+  display: block;
+  background: #444;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  max-width: 118px;
+}
+.personal-Info .theme-btn, .personal-Info .view-cart-btn {
+  padding: 10px 35px;
+}
+@media (max-width: 991px) {
+  .personal-Info .theme-btn, .personal-Info .view-cart-btn {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .personal-Info .theme-btn, .personal-Info .view-cart-btn {
+    margin-top: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
