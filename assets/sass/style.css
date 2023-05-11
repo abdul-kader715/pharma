@@ -10152,9 +10152,7 @@ table.dataTable.display > tbody > tr:hover > * {
 }
 .payroll-peges .manage-brand-area tbody tr th img {
   border-radius: 6px;
-}
-.payroll-peges .manage-brand-area tbody tr th span {
-  padding-left: 12px;
+  margin-right: 12px;
 }
 .payroll-peges .dataTables_wrapper .dataTables_paginate {
   margin-top: 20px;
@@ -10196,6 +10194,12 @@ table.dataTable.display > tbody > tr:hover > * {
 }
 .payroll-peges .salary-payment tbody tr th {
   width: 10%;
+}
+.payroll-peges .salary-payment tbody tr th .green {
+  color: #28B95E;
+}
+.payroll-peges .salary-payment tbody tr th .turmeric {
+  color: #FFDB45;
 }
 .payroll-peges .salary-payment tbody tr th:first-child {
   width: 5%;

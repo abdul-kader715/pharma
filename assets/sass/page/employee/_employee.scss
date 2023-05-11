@@ -321,11 +321,9 @@
 
             img {
                 border-radius: 6px;
+                margin-right: 12px;
             }
 
-            span {
-                padding-left: 12px;
-            }
         }
 
 
@@ -391,6 +389,16 @@
 
         tbody tr th {
             width: 10%;
+        }
+
+        tbody tr th {
+            .green {
+                color: #28B95E;
+            }
+
+            .turmeric {
+                color:#FFDB45;
+            }
         }
 
         tbody tr th:first-child {
@@ -480,4 +488,3 @@
     }
 
 }
-
