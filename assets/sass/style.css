@@ -10241,6 +10241,31 @@ table.dataTable.display > tbody > tr:hover > * {
     width: 1270px;
   }
 }
+.payroll-peges .salary-payment .paid,
+.payroll-peges .salary-payment .pay {
+  width: 105px;
+  border: transparent;
+}
+.payroll-peges .salary-payment .paid:hover,
+.payroll-peges .salary-payment .pay:hover {
+  background: transparent;
+}
+.payroll-peges .salary-payment .paid {
+  background: #F5F5F5;
+  color: #9EA3A7;
+}
+.payroll-peges .salary-payment .paid:hover {
+  background: #F5F5F5;
+  color: #9EA3A7;
+}
+.payroll-peges .salary-payment .pay {
+  background: #EDEFFE;
+  color: #5065F6;
+}
+.payroll-peges .salary-payment .pay:hover {
+  background: #EDEFFE;
+  color: #5065F6;
+}
 .payroll-peges .expence-wrap tbody tr th:first-child {
   width: 50%;
 }
@@ -10554,4 +10579,173 @@ table.dataTable.display > tbody > tr:hover > * {
   .personal-Info .theme-btn, .personal-Info .view-cart-btn {
     margin-top: 30px;
   }
+}
+
+/* login-wrap */
+.login-section {
+  background: #E5E5E5;
+  width: 100%;
+  height: 100vh;
+  padding: 120px 0;
+}
+
+.login-wrap {
+  margin: 0 auto;
+  width: 632px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 85px 110px;
+  text-align: center;
+}
+@media (max-width: 650px) {
+  .login-wrap {
+    width: 450px;
+    padding: 30px 30px;
+  }
+}
+@media (max-width: 460px) {
+  .login-wrap {
+    width: 320px;
+    padding: 20px 20px;
+  }
+}
+.login-wrap form > div {
+  position: relative;
+}
+
+.lg-title {
+  margin-top: 30px;
+  margin-bottom: 65px;
+}
+.lg-title h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 34px;
+  color: #323343;
+}
+@media (max-width: 767px) {
+  .lg-title h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 399px) {
+  .lg-title h2 {
+    font-size: 25px;
+    line-height: 28px;
+  }
+}
+.lg-title p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #757B82;
+  margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .lg-title p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 767px) {
+  .lg-title p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+.lg-form .form-control {
+  height: 50px;
+  border: 1px solid #C8CACD;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background: transparent;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #757B82;
+}
+.lg-form .form-control:focus {
+  box-shadow: none;
+  border: 1px solid #5065F6;
+}
+.lg-form label {
+  position: absolute;
+  left: 1rem;
+  pointer-events: none;
+  transition: all 0.2s;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #757B82;
+  background: #fff;
+  padding: 0px 5px;
+  z-index: 1;
+}
+.lg-form .label-active {
+  top: 0;
+}
+.lg-form span {
+  position: absolute;
+  top: 18px;
+  right: 14px;
+  cursor: pointer;
+}
+.lg-form a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #5065F6;
+}
+@media (max-width: 399px) {
+  .lg-form a {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+.lg-form .log-btn {
+  position: relative;
+  width: 100%;
+  padding: 10px 20px;
+  height: 50px;
+  background: #5065F6;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-align: left;
+  margin: 30px 0;
+  border: transparent;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.lg-form .log-btn i {
+  font-size: 15px;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #757B82;
+}
+.sign-in span a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5065F6;
+  padding-left: 10px;
 }/*# sourceMappingURL=style.css.map */

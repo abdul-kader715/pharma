@@ -397,7 +397,7 @@
             }
 
             .turmeric {
-                color:#FFDB45;
+                color: #FFDB45;
             }
         }
 
@@ -440,6 +440,36 @@
         .table {
             @media (max-width:1530px) {
                 width: 1270px;
+            }
+        }
+
+        .paid,
+        .pay {
+            width: 105px;
+            border: transparent;
+
+            &:hover {
+                background: transparent;
+            }
+        }
+
+        .paid {
+            background: #F5F5F5;
+            color: #9EA3A7;
+
+            &:hover {
+                background: #F5F5F5;
+                color: #9EA3A7;
+            }
+        }
+
+        .pay {
+            background: #EDEFFE;
+            color: #5065F6;
+
+            &:hover {
+                background: #EDEFFE;
+                color: #5065F6;
             }
         }
     }
