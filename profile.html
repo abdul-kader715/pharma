@@ -71,7 +71,6 @@
                     </div>
                     <!-- End Search Form -->
                 </div>
-
                 <div class="navbar-nav-wrap-content-end">
                     <!-- Navbar -->
                     <ul class="navbar-nav">
@@ -397,7 +396,7 @@
                                     </div>
                                 </a>
 
-                                   <ul class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless navbar-dropdown-account"
+                                <ul class="dropdown-menu dropdown-menu-end navbar-dropdown-menu navbar-dropdown-menu-borderless navbar-dropdown-account"
                                     aria-labelledby="accountNavbarDropdown" style="width: 14rem;">
                                     <li class="dropdown-item">
                                         <a href="profile.html"><img src="assets/images/account/edit.png" alt="">Profile</a>
@@ -480,6 +479,7 @@
                                         <img src="assets/images/sidebar-icon/2.svg" alt="">
                                         <span class="nav-link-title">Purchase</span>
                                     </a>
+
                                     <div id="navbarVerticalMenuPagesUsersMenu" class="nav-collapse collapse "
                                         data-bs-parent="#navbarVerticalMenuPagesMenu">
                                         <a class="nav-link" href="purchase-list.html">Purchase List</a>
@@ -509,8 +509,6 @@
                                     </div>
                                 </div>
                                 <!-- End Collapse -->
-
-
                                 <!-- Collapse -->
                                 <div class="nav-item">
                                     <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuPagesEcommerceMenu"
@@ -521,7 +519,7 @@
                                         <span class="nav-link-title">Product</span>
                                     </a>
 
-                                  <div id="navbarVerticalMenuPagesEcommerceMenu" class="nav-collapse collapse"
+                                    <div id="navbarVerticalMenuPagesEcommerceMenu" class="nav-collapse collapse"
                                         data-bs-parent="#navbarVerticalMenuPagesMenu">
                                         <a class="nav-link " href="product-list.html">Product List</a>
                                         <a class="nav-link " href="product-package.html">Product Package</a>
@@ -540,7 +538,7 @@
                                         <span class="nav-link-title">Reports</span>
                                     </a>
 
-                                   <div id="navbarVerticalMenuPagesAccountMenu" class="nav-collapse collapse "
+                                    <div id="navbarVerticalMenuPagesAccountMenu" class="nav-collapse collapse "
                                         data-bs-parent="#navbarVerticalMenuPagesMenu">
                                         <a class="nav-link " href="sales-report.html">Sales Report</a>
                                         <a class="nav-link " href="sales-return-report.html">Sales Return Report</a>
@@ -567,10 +565,11 @@
                                 </div>
                                 <!-- End Collapse -->
                                 <div class="nav-item">
-                                    <a class="nav-link dropdown-toggle " href="#navbarVerticalMenuPagesProjectsMenuCustom"
-                                        role="button" data-bs-toggle="collapse"
-                                        data-bs-target="#navbarVerticalMenuPagesProjectsMenuCustom" aria-expanded="false"
-                                        aria-controls="navbarVerticalMenuPagesProjectsMenuCustom">
+                                    <a class="nav-link dropdown-toggle "
+                                        href="#navbarVerticalMenuPagesProjectsMenuCustom" role="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#navbarVerticalMenuPagesProjectsMenuCustom"
+                                        aria-expanded="false" aria-controls="navbarVerticalMenuPagesProjectsMenuCustom">
                                         <img src="assets/images/sidebar-icon/7.svg" alt="">
                                         <span class="nav-link-title">Customer</span>
                                     </a>
@@ -609,7 +608,7 @@
                                         <span class="nav-link-title">Employee</span>
                                     </a>
 
-                                 <div id="navbarVerticalMenuAuthentication" class="nav-collapse collapse "
+                                    <div id="navbarVerticalMenuAuthentication" class="nav-collapse collapse "
                                         data-bs-parent="#navbarVerticalMenu">
                                         <div id="navbarVerticalMenuAuthenticationMenu">
                                             <a class="nav-link " href="employee.html">Employee</a>
@@ -630,7 +629,6 @@
                             </div>
                         </div>
                         <!-- End Content -->
-
                     </div>
                 </div>
             </div>
@@ -638,230 +636,243 @@
 
         <!-- End Navbar Vertical -->
 
-        <main id="content" role="main" class="main" style="background: #F5F5F5;">
+        <main id="content" class="main s2">
             <!-- Content -->
             <div class="content container-fluid">
-                <!--start purchase-list section -->
-                <div class="purchase-list-section s2">
-                    <div class="section-title">
-                        <h2>Supplier Wise Return Report</h2>
+                <!--start wpo-profile-section -->
+                <div class="wpo-profile-section">
+                    <div class="profile-wrap">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="profile-Info">
+                                    <div class="profile-Img">
+                                        <img src="assets/images/profile.jpg" alt="">
+                                    </div>
+                                    <div class="profileInfoContent">
+                                        <h2>Kane Williamson</h2>
+                                        <p>jon.deo@gmail.com</p>
+                                    </div>
+                                </div>
+                                <div class="profileTabMenu">
+                                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                                        aria-orientation="vertical">
+                                        <button class="tabMenu-btn nav-link active" id="v-pills-home-tab"
+                                            data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button"
+                                            role="tab" aria-controls="v-pills-home" aria-selected="true"><i
+                                                class="ti-user"></i>My Profile</button>
+                                        <button class="tabMenu-btn nav-link" id="v-pills-profile-tab"
+                                            data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button"
+                                            role="tab" aria-controls="v-pills-profile" aria-selected="false"><i
+                                                class="ti-user"></i>Edit Profile</button>
+                                        <button class="tabMenu-btn nav-link" id="v-pills-messages-tab"
+                                            data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button"
+                                            role="tab" aria-controls="v-pills-messages" aria-selected="false"><i
+                                                class="ti-unlock"></i>Reset Password</button>
+                                        <button class="tabMenu-btn"><a href="login.html"><i
+                                                    class="ti-export"></i><span>Logout</span></a></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                        aria-labelledby="v-pills-home-tab">
+                                        <div class="MyProfile-wrap">
+                                            <div class="row">
+                                                <div class="wpo-section-title">
+                                                    <h2>My Profile</h2>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="MyProfile-item">
+                                                        <span>First Name</span>
+                                                        <h3>Jone</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="MyProfile-item">
+                                                        <span>Last Name</span>
+                                                        <h3>Don</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="MyProfile-item">
+                                                        <span>Email</span>
+                                                        <h3>Jone@gmail.com</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="MyProfile-item">
+                                                        <span>Phone Number</span>
+                                                        <h3>+1546820457</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="MyProfile-item">
+                                                        <span>Address</span>
+                                                        <h3>USA</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="MyProfile-item">
+                                                        <span>Zip Code</span>
+                                                        <h3>145852</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="MyProfile-item">
+                                                        <span>Status</span>
+                                                        <h3>Admin</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="MyProfile-item">
+                                                        <span>Active Status</span>
+                                                        <h3>Active</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="MyProfile-item">
+                                                        <span>Date Of Birth</span>
+                                                        <h3>30/12/1997</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="MyProfile-item">
+                                                        <span>Zip Code</span>
+                                                        <h3>145852</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="MyProfile-item">
+                                                        <span>Status</span>
+                                                        <h3>Admin</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <div class="MyProfile-item">
+                                                        <span>Active Status</span>
+                                                        <h3>Active</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                        aria-labelledby="v-pills-profile-tab">
+                                        <div class="MyProfile-wrap s2">
+                                            <div class="wpo-section-title">
+                                                <h2>Edit Profile</h2>
+                                            </div>
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 col-12">
+                                                        <div class="MyProfile-item">
+                                                            <label>First Name</label>
+                                                            <input type="text" class="form-control" placeholder="Jone">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-12">
+                                                        <div class="MyProfile-item">
+                                                            <label>Last Name</label>
+                                                            <input type="text" class="form-control" placeholder="Don">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-12">
+                                                        <div class="MyProfile-item">
+                                                            <label>Email</label>
+                                                            <input type="email" class="form-control"
+                                                                placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-12">
+                                                        <div class="MyProfile-item">
+                                                            <label>Phone Number</label>
+                                                            <input type="number" class="form-control"
+                                                                placeholder="+1546820457">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-12">
+                                                        <div class="MyProfile-item">
+                                                            <label>Address</label>
+                                                            <input type="text" class="form-control" placeholder="USA">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-12">
+                                                        <div class="MyProfile-item">
+                                                            <label>Zip Code</label>
+                                                            <input type="number" class="form-control"
+                                                                placeholder="145852">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-12">
+                                                        <div class="MyProfile-item">
+                                                            <label>Date Of Birth</label>
+                                                            <input type="date" class="form-control"
+                                                                placeholder="30/12/1997">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 col-12">
+                                                        <div class="MyProfile-item">
+                                                            <label>Zip Code</label>
+                                                            <input type="number" class="form-control"
+                                                                placeholder="145852">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="MyProfile-item">
+                                                            <input type="submit" class="sub-btn " value="Update">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                        aria-labelledby="v-pills-messages-tab">
+                                        <div class="MyProfile-wrap s2">
+                                            <div class="wpo-section-title">
+                                                <h2>Reset Password</h2>
+                                            </div>
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-12">
+                                                        <div class="MyProfile-item">
+                                                            <label>Old Password</label>
+                                                            <input type="password" class="form-control"
+                                                                placeholder="1546820457">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-12">
+                                                        <div class="MyProfile-item">
+                                                            <label>New Password</label>
+                                                            <input type="password" class="form-control"
+                                                                placeholder="1546820457">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-12">
+                                                        <div class="MyProfile-item">
+                                                            <label>Confirm Password</label>
+                                                            <input type="password" class="form-control"
+                                                                placeholder="1546820457">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="MyProfile-item">
+                                                            <input type="submit" class="sub-btn" value="Update">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="section-top-btn">
-                        <button class="theme-btn" data-bs-toggle="modal" data-bs-target="#selas-return-repot">Add Report</button>
-                    </div>
-                    <div class="purchase-date">
-                        <div>
-                            <label>Type</label>
-                            <select class="form-control">
-                                <option>Select One</option>
-                                <option>Enter suplier</option>
-                                <option>Enter suplier</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label>Supplier</label>
-                            <select class="form-control">
-                                <option>Select One</option>
-                                <option>Enter suplier</option>
-                                <option>Enter suplier</option>
-                            </select>
-                        </div>
-                        <div class="sub-search">
-                            <i class="ti-search"></i>
-                        </div>
-                    </div>
-                    <div class="purchase-list">
-                        <div class="purchase-content">
-                            <button class="content-right">Export</button>
-                        </div>
-                        <div class="table-responsive">
-                            <table class="table" id="myTable">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Invoice Id</th>
-                                        <th scope="col">Sale Reference</th>
-                                        <th scope="col">Date</th>
-                                        <th scope="col">Total payble</th>
-                                        <th scope="col">Paid Amount</th>
-                                        <th scope="col">Change</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="col">#T-545463544</th>
-                                        <th>#764765765</th>
-                                        <td>2022-12-27</td>
-                                        <td>$328.85</td>
-                                        <td>$567.00</td>
-                                        <td>$169.43</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+                    <!--end wpo-profile-section -->
                 </div>
-                <!--end purchase-list section -->
-            </div>
-            <!-- End Content -->
+                <!-- End Content -->
         </main>
-        <div class="modal fade addpayment" id="selas-return-repot">
-          <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                      <h5 class="modal-title">Add Sales Report</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                      <div class="row">
-                          <div class="col-lg-6 col-12">
-                              <div class="purchase-add-fild">
-                                  <label>Date</label>
-                                  <input type="text" class="form-control" name="pay-date" value="02/28/2022" />
-                              </div>
-                          </div>
-                          <div class="col-lg-6 col-12">
-                              <div class="purchase-add-fild">
-                                  <label>Invoice Id</label>
-                                  <input type="text" class="form-control" placeholder="#T-133444">
-                              </div>
-                          </div>
-                          <div class="col-lg-6 col-12">
-                              <div class="purchase-add-fild">
-                                  <label>Sale Reference</label>
-                                  <input type="text" class="form-control" placeholder="1445133444">
-                              </div>
-                          </div>
-                          <div class="col-lg-6 col-12">
-                              <div class="purchase-add-fild">
-                                  <label>Total payble</label>
-                                  <input type="number" class="form-control" placeholder="$255.00">
-                              </div>
-                          </div>
-                          <div class="col-lg-6 col-12">
-                              <div class="purchase-add-fild">
-                                  <label>Paid Amount</label>
-                                  <input type="number" class="form-control" placeholder="$255.00">
-                              </div>
-                          </div>
-                          <div class="col-lg-6 col-12">
-                              <div class="purchase-add-fild">
-                                  <label>Change</label>
-                                  <input type="number" class="form-control" placeholder="$255.00">
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                      <button type="button" class="btn btn-primary">Save</button>
-                  </div>
-               </div>
-            </div>
-        </div>
 
     </div>
     <!-- end of page-wrapper -->
