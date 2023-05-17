@@ -636,7 +636,7 @@
 
         <!-- End Navbar Vertical -->
 
-        <main id="content" role="main" class="main" style="background: #F5F5F5;">
+        <main id="content" class="main">
             <!-- Content -->
             <div class="content container-fluid">
                 <div class="row">
@@ -714,7 +714,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mb-4">
                         <!-- Monthly Progress -->
                         <div class="progress-chart">
                             <div class="chart-header">
@@ -734,7 +734,7 @@
 
                             <!-- Bar Chart -->
                             <div class="chartjs-custom">
-                                <canvas id="ecommerce-sales" class="js-chart" height="110rem"></canvas>
+                                <canvas id="ecommerce-sales" class="js-chart" ></canvas>
                             </div>
                             <!-- End Bar Chart -->
                         </div>
@@ -901,6 +901,8 @@
                 ]
             },
             "options": {
+                maintainAspectRatio: false,
+                responsive: true,  
                 "scales": {
                     "y": {
                         "grid": {

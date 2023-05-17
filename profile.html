@@ -646,7 +646,11 @@
                             <div class="col-lg-4">
                                 <div class="profile-Info">
                                     <div class="profile-Img">
-                                        <img src="assets/images/profile.jpg" alt="">
+                                        <img id="image-preview" src="assets/images/profile.jpg" alt="">
+                                        <label for="up-img-file">
+                                            <i class="ti-pencil-alt"></i>
+                                        </label>
+                                        <input type="file" name="image" id="up-img-file" class="up-img" accept="image/*" onchange="updatePreview(this, 'image-preview')" >
                                     </div>
                                     <div class="profileInfoContent">
                                         <h2>Kane Williamson</h2>

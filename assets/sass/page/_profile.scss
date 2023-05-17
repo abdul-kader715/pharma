@@ -25,12 +25,40 @@
         padding: 20px;
     }
     .profile-Img {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 0 auto;
         margin-bottom: 20px;
 
         img {
-            width: 150px;
-            border-radius: 50%;
             border: 5px solid #f1f1f1;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        label {
+            display: flex;
+            width: 30px;
+            height: 30px;
+            background: #879cab;
+            border-radius: 50%;
+            color: #fff;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 0;
+            bottom: 30px;
+            cursor: pointer;
+            i{
+                font-size: 12px;
+            }
+        }
+
+        .up-img {
+            display: none;
         }
     }
 

@@ -248,10 +248,6 @@ $(document).ready(function () {
 
 
 
-
-
-
-
 $(".toggle-password").click(function () {
 
   $(this).toggleClass("fa fa-eye fa fa-eye-slash");
@@ -262,3 +258,18 @@ $(".toggle-password").click(function () {
     input.attr("type", "password");
   }
 });
+
+
+
+
+function updatePreview(input, target) {
+  let file = input.files[0];
+  let reader = new FileReader();
+  
+  reader.readAsDataURL(file);
+  reader.onload = function () {
+      let img = document.getElementById(target);
+      // can also use "this.result"
+      img.src = reader.result;
+  }
+}

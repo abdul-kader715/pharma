@@ -137,11 +137,12 @@
                 display: inline;
                 margin: 0 5px;
 
-                a {
+                button {
                     padding: 7px 10px;
                     background: #F5F5F5;
                     border-radius: 4px;
-                    cursor: pointer;
+                    border: transparent;
+                    display: inline-flex;
                 }
             }
         }

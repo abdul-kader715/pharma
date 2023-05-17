@@ -947,8 +947,6 @@
 		font-size: 18px;
 		line-height: 15px;
 		color: #323232;
-		margin: 0 5px;
-		padding: 9px 0.65em;
 		@media (max-width:991px) {
 			display: none;
 		}
@@ -3775,6 +3773,7 @@ ul.dropdown-menu.dropdown-menu-end.navbar-dropdown-menu.navbar-dropdown-menu-bor
 
 .navbar-vertical-content {
 	overflow: hidden;
+	overflow-y: auto;
 }
 
 .navbar-vertical .nav-compact,
@@ -4787,7 +4786,9 @@ ul.dropdown-menu.dropdown-menu-end.navbar-dropdown-menu.navbar-dropdown-menu-bor
 		transform: translateX(0);
 	}
 }
-
+.main{
+	background: #F5F5F5;
+}
 @media (min-width: 1200px) {
 	.navbar-vertical.navbar-expand-xl {
 		-ms-flex-flow: column;
