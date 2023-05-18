@@ -75,7 +75,9 @@
 .navbar-nav .nav-link.active {
 	color: #377dff;
 }
-
+.nav-link:focus{
+	color: $white;
+}
 .nav-item.show .nav-link-svg path,
 .nav-link.active .nav-link-svg path {
 	fill: #377dff;
@@ -846,7 +848,7 @@
 }
 
 .navbar .nav-item:hover>.nav-link {
-	color: #1366ff;
+	color: $white;
 }
 
 .navbar .dropdown-menu {

@@ -633,6 +633,10 @@ img {
   color: #377dff;
 }
 
+.nav-link:focus {
+  color: #fff;
+}
+
 .nav-item.show .nav-link-svg path,
 .nav-link.active .nav-link-svg path {
   fill: #377dff;
@@ -1369,7 +1373,7 @@ img {
 }
 
 .navbar .nav-item:hover > .nav-link {
-  color: #1366ff;
+  color: #fff;
 }
 
 .navbar .dropdown-menu {
@@ -10974,4 +10978,42 @@ table.dataTable.display > tbody > tr:hover > * {
   background: #6366F1;
   margin-top: 10px;
   font-size: 18px;
+}
+
+.setting-title {
+  display: inline-block;
+  margin-top: 25px;
+}
+.setting-title h2 {
+  margin-bottom: 25px;
+}
+
+.pagpagination-content {
+  list-style: none;
+}
+.pagpagination-content li {
+  display: inline-block;
+  padding-right: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  color: #757B82;
+  position: relative;
+}
+.pagpagination-content li::before {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #6366F1;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.pagpagination-content li:last-child {
+  color: #323232;
+}
+.pagpagination-content li:last-child::before {
+  display: none;
 }/*# sourceMappingURL=style.css.map */
