@@ -748,7 +748,6 @@
         <main id="content" class="main">
             <!-- Content -->
             <div class="content container-fluid">
-                <!-- setting-wrap Page -->
                 <div class="setting-wrap">
                     <div class="row">
                         <div class="col-12">
@@ -758,117 +757,160 @@
                             <ul class="pagpagination-content">
                                 <li>Settings</li>
                                 <li>Main Settings</li>
-                                <li>General Settings</li>
+                                <li>Modules</li>
                             </ul>
                         </div>
                     </div>
                     <div class="setting-content">
-                        <div class="row">
-                            <div class="col col-lg-4 col-md-6 col-12">
-                                <div class="setting-item">
-                                    <label>Product Purchase Code</label>
-                                    <input type="text" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-12">
-                                <div class="setting-item">
-                                    <label>Time Zone</label>
-                                    <select class="form-control">
-                                        <option>UTC</option>
-                                        <option>EUROPE</option>
-                                        <option>Europe/Astrakhan</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-12">
-                                <div class="setting-item">
-                                    <label>Date Format</label>
-                                    <input type="text" class="form-control" name="start-date" value="10/24/2023" />
-                                </div>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-12">
-                                <div class="setting-item">
-                                    <label>Left Menu Position - Default Position</label>
-                                    <select class="form-control">
-                                        <option>Collapsed</option>
-                                        <option>open</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-12">
-                                <div class="setting-item">
-                                    <label>Stats Panel - Default Position</label>
-                                    <select class="form-control">
-                                        <option>Collapsed</option>
-                                        <option>open</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-12">
-                                <div class="setting-item">
-                                    <label>Table Pagination Limits</label>
-                                    <input type="number" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-12">
-                                <div class="setting-item">
-                                    <label>Kanban Pagination Limits</label>
-                                    <input type="number" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-12">
-                                <div class="setting-item">
-                                    <label>Close Modal Window On Page Click</label>
-                                    <select class="form-control">
-                                        <option>No</option>
-                                        <option>Yes</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-12">
-                                <div class="setting-item">
-                                    <label>Show session timeout popup</label>
-                                    <select class="form-control">
-                                        <option>Enabled</option>
-                                        <option>Disabled</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-12">
-                                <div class="setting-item">
-                                    <label>Default Language</label>
-                                    <select class="form-control">
-                                        <option>Spanish</option>
-                                        <option>French</option>
-                                        <option>Portuguese</option>
-                                        <option>Indonesian</option>
-                                        <option>English</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-12">
-                                <div class="setting-item">
-                                    <label>Allow Users To Change Language</label>
-                                    <select class="form-control">
-                                        <option>No</option>
-                                        <option>Yes</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col col-lg-4 col-md-6 col-12">
-                                <div class="setting-item">
-                                    <label>Exporting Content - (Strip HTML)</label>
-                                    <select class="form-control">
-                                        <option>No</option>
-                                        <option>Yes</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="text-right">
-                                    <input type="button" class="theme-btn" value="Save Changes">
-                                </div>
-                            </div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Module</th>
+                                        <th scope="col">Enabled</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Projects</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html1">
+                                                <label for="html1"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Tasks - (Requires the projects module)</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html2">
+                                                <label for="html2"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Invoices</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html3">
+                                                <label for="html3"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Payments</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html4">
+                                                <label for="html4"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Leads</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html5">
+                                                <label for="html5"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Knowledgebase</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html6">
+                                                <label for="html6"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Estimates</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html7">
+                                                <label for="html7"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Proposals</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html8">
+                                                <label for="html8"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Contracts</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html9">
+                                                <label for="html9"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Expenses</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html10">
+                                                <label for="html10"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Subscriptions</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html11">
+                                                <label for="html11"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Tickets</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html12">
+                                                <label for="html12"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Messages (Instant Messaging)</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html13">
+                                                <label for="html13"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Time Tracking - (Requires the tasks module)</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html14">
+                                                <label for="html14"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th>Reminders</th>
+                                        <th scope="col">
+                                            <div class="form-group">
+                                                <input type="checkbox" id="html15">
+                                                <label for="html15"></label>
+                                            </div>
+                                        </th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="text-right">
+                            <input type="button" class="theme-btn" value="Save Changes">
                         </div>
                     </div>
                 </div>

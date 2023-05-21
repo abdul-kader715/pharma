@@ -10980,6 +10980,7 @@ table.dataTable.display > tbody > tr:hover > * {
   font-size: 18px;
 }
 
+/* setting-wrap Page */
 .setting-title {
   display: inline-block;
   margin-top: 25px;
@@ -11016,4 +11017,192 @@ table.dataTable.display > tbody > tr:hover > * {
 }
 .pagpagination-content li:last-child::before {
   display: none;
+}
+
+.setting-wrap {
+  padding-bottom: 20px;
+}
+.setting-wrap .text-right {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  .setting-wrap .text-right .theme-btn:before, .setting-wrap .text-right .view-cart-btn:before {
+    display: none;
+  }
+}
+
+.setting-content {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(68, 84, 141, 0.08);
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+.setting-content .col {
+  padding-bottom: 15px;
+}
+.setting-content .setting-item label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  color: #757B82;
+}
+.setting-content .setting-item .form-control {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #9EA3A7;
+  width: 100%;
+}
+.setting-content .setting-item .form-control:focus {
+  box-shadow: 0 0 0 0.25rem transparent;
+  border: 1px solid #ced4da;
+}
+.setting-content .setting-item .form-control.s2 {
+  margin-bottom: 10px;
+}
+.setting-content .setting-item .form-control.s3 {
+  margin-bottom: 10px;
+  height: 150px;
+}
+.setting-content .text-right {
+  text-align: right;
+}
+.setting-content .text-right .theme-btn, .setting-content .text-right .view-cart-btn {
+  padding: 10px 15px;
+}
+@media (max-width: 500px) {
+  .setting-content .table {
+    width: 475px;
+  }
+}
+.setting-content .table thead tr th {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #8B8B8B;
+  text-align: left;
+}
+.setting-content .table thead tr th:last-child {
+  width: 50px;
+  text-align: center;
+}
+.setting-content .table tbody tr th {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 45px;
+  color: #323232;
+  height: 45px;
+}
+.setting-content .table tbody tr th:last-child {
+  width: 50px;
+  text-align: center;
+}
+.setting-content .table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #E9E9E9;
+}
+.setting-content .ck-editor__editable_inline {
+  min-height: 250px;
+}
+
+.setting-client-wrap {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(68, 84, 141, 0.08);
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin-top: 20px;
+}
+@media (max-width: 991px) {
+  .setting-client-wrap .table {
+    width: 1000px;
+  }
+}
+.setting-client-wrap .table thead tr th {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #8B8B8B;
+  width: 16.66%;
+}
+.setting-client-wrap .table tbody tr th,
+.setting-client-wrap .table tbody tr td {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 45px;
+  color: #323232;
+  height: 45px;
+  width: 16.66%;
+}
+.setting-client-wrap .table tbody tr th .image,
+.setting-client-wrap .table tbody tr td .image {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+.setting-client-wrap .table tbody tr th .image img,
+.setting-client-wrap .table tbody tr td .image img {
+  border-radius: 100px;
+}
+.setting-client-wrap .table tbody tr th ul,
+.setting-client-wrap .table tbody tr td ul {
+  list-style: none;
+}
+.setting-client-wrap .table tbody tr th ul li,
+.setting-client-wrap .table tbody tr td ul li {
+  display: inline;
+  margin: 0 5px;
+}
+.setting-client-wrap .table tbody tr th ul li button,
+.setting-client-wrap .table tbody tr td ul li button {
+  padding: 7px 10px;
+  background: #F5F5F5;
+  border-radius: 4px;
+  border: transparent;
+  display: inline-flex;
+}
+.setting-client-wrap .table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #E9E9E9;
+}
+.setting-client-wrap .table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #E9E9E9;
+}
+@media (max-width: 991px) {
+  .setting-client-wrap.s2 .table {
+    width: 1000px;
+  }
+}
+.setting-client-wrap.s2 .table thead tr th {
+  width: 25%;
+}
+.setting-client-wrap.s2 .table thead tr th:last-child {
+  width: 10%;
+}
+.setting-client-wrap.s2 .table tbody tr th,
+.setting-client-wrap.s2 .table tbody tr td {
+  width: 25%;
+}
+.setting-client-wrap.s2 .table tbody tr th:last-child,
+.setting-client-wrap.s2 .table tbody tr td:last-child {
+  width: 10%;
+}
+.setting-client-wrap.s2 .table tbody tr th ul,
+.setting-client-wrap.s2 .table tbody tr td ul {
+  list-style: none;
+}
+.setting-client-wrap.s2 .table tbody tr th ul li,
+.setting-client-wrap.s2 .table tbody tr td ul li {
+  display: inline;
+  margin: 0 5px;
+}
+.setting-client-wrap.s2 .table tbody tr th ul li a,
+.setting-client-wrap.s2 .table tbody tr td ul li a {
+  padding: 7px 10px;
+  background: #F5F5F5;
+  border-radius: 4px;
+  border: transparent;
+  display: inline-flex;
 }/*# sourceMappingURL=style.css.map */

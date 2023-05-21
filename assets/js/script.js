@@ -273,3 +273,10 @@ function updatePreview(input, target) {
       img.src = reader.result;
   }
 }
+
+ClassicEditor
+.create( document.querySelector( '#editor' ) )
+.catch( error => {
+    console.error( error );
+} );
+
