@@ -11205,4 +11205,168 @@ table.dataTable.display > tbody > tr:hover > * {
   border-radius: 4px;
   border: transparent;
   display: inline-flex;
+}
+
+@media (max-width: 1335px) {
+  .key-features .s2 .table {
+    width: 1200px;
+  }
+}
+.key-features .s2 .table thead tr th {
+  width: 10%;
+}
+.key-features .s2 .table thead tr th:nth-child(2) {
+  width: 20%;
+}
+.key-features .s2 .table thead tr th:nth-child(3) {
+  width: 50%;
+}
+.key-features .s2 .table tbody tr th,
+.key-features .s2 .table tbody tr td {
+  width: 10%;
+}
+.key-features .s2 .table tbody tr th:nth-child(2),
+.key-features .s2 .table tbody tr td:nth-child(2) {
+  width: 15%;
+}
+.key-features .s2 .table tbody tr th:nth-child(3),
+.key-features .s2 .table tbody tr td:nth-child(3) {
+  width: 55%;
+}
+.key-features .s2 .table tbody tr th .image,
+.key-features .s2 .table tbody tr td .image {
+  display: inline-block;
+}
+.key-features .s2 .table tbody tr th .image img,
+.key-features .s2 .table tbody tr td .image img {
+  border-radius: 0;
+}
+.key-features #up-img-file-s2, .key-features #up-img-file {
+  display: none;
+}
+.key-features .profile-Img {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+  .language .s2 .table {
+    width: 1000px;
+  }
+}
+.language .s2 .table thead tr th {
+  width: 15%;
+}
+.language .s2 .table thead tr th:nth-child(2) {
+  width: 20%;
+}
+.language .s2 .table tbody tr th,
+.language .s2 .table tbody tr td {
+  width: 10%;
+}
+.language .s2 .table tbody tr th:nth-child(2),
+.language .s2 .table tbody tr td:nth-child(2) {
+  width: 20%;
+}
+.language .s2 .table tbody tr th .yes-btn,
+.language .s2 .table tbody tr th .enabled-btn,
+.language .s2 .table tbody tr td .yes-btn,
+.language .s2 .table tbody tr td .enabled-btn {
+  background: #6366F1;
+  padding: 6px 20px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.language .s2 .table tbody tr th .enabled-btn,
+.language .s2 .table tbody tr td .enabled-btn {
+  background: #FEC800;
+}
+
+@media (max-width: 1399px) {
+  .payment-setting .s2 .table {
+    width: 1100px;
+  }
+}
+.payment-setting .s2 .table thead tr th {
+  width: 10%;
+}
+.payment-setting .s2 .table thead tr th:first-child {
+  width: 5%;
+}
+.payment-setting .s2 .table thead tr th:nth-child(2) {
+  width: 15%;
+}
+.payment-setting .s2 .table thead tr th:last-child {
+  width: 5%;
+}
+.payment-setting .s2 .table tbody tr th,
+.payment-setting .s2 .table tbody tr td {
+  width: 10%;
+}
+.payment-setting .s2 .table tbody tr th:first-child,
+.payment-setting .s2 .table tbody tr td:first-child {
+  width: 5%;
+}
+.payment-setting .s2 .table tbody tr th:nth-child(2),
+.payment-setting .s2 .table tbody tr td:nth-child(2) {
+  width: 15%;
+}
+.payment-setting .s2 .table tbody tr th:last-child,
+.payment-setting .s2 .table tbody tr td:last-child {
+  width: 5%;
+}
+.payment-setting .s2 .table tbody tr th .yes-btn,
+.payment-setting .s2 .table tbody tr th .enabled-btn,
+.payment-setting .s2 .table tbody tr th .disabled-btn,
+.payment-setting .s2 .table tbody tr td .yes-btn,
+.payment-setting .s2 .table tbody tr td .enabled-btn,
+.payment-setting .s2 .table tbody tr td .disabled-btn {
+  background: #6366F1;
+  padding: 6px 20px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.payment-setting .s2 .table tbody tr th .enabled-btn,
+.payment-setting .s2 .table tbody tr td .enabled-btn {
+  background: #FEC800;
+}
+.payment-setting .s2 .table tbody tr th .disabled-btn,
+.payment-setting .s2 .table tbody tr td .disabled-btn {
+  background: #F14B6A;
+}
+
+.logo-setting .up-img {
+  display: none;
+}
+.logo-setting .profile-Img {
+  text-align: center;
+}
+.logo-setting .profile-Img img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  border: 1px solid #F0F3F8;
+  padding: 5px;
+}
+.logo-setting .profile-Img .theme-btn-s2 {
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 7px 22px;
+}
+.logo-setting .profile-Img .theme-btn-s2:hover {
+  color: #fff;
+}
+.logo-setting .profile-Img.s2 img {
+  width: 80px;
+}
+.logo-setting .profile-Img.s3 img {
+  width: 60px;
+}
+.logo-setting .text-right {
+  text-align: center;
+  margin-top: 20px;
+}
+.logo-setting .nice-select {
+  height: 37px;
 }/*# sourceMappingURL=style.css.map */

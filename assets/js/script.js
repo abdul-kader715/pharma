@@ -162,6 +162,7 @@ $(function () {
     alert("You are " + years + " years old!");
   });
 });
+
 $(function () {
   $('input[name="return-date"]').daterangepicker({
     singleDatePicker: true,
@@ -261,11 +262,10 @@ $(".toggle-password").click(function () {
 
 
 
-
 function updatePreview(input, target) {
   let file = input.files[0];
   let reader = new FileReader();
-  
+
   reader.readAsDataURL(file);
   reader.onload = function () {
       let img = document.getElementById(target);
@@ -273,10 +273,4 @@ function updatePreview(input, target) {
       img.src = reader.result;
   }
 }
-
-ClassicEditor
-.create( document.querySelector( '#editor' ) )
-.catch( error => {
-    console.error( error );
-} );
 
